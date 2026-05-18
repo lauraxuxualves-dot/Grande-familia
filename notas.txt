@@ -1,0 +1,8 @@
+https://dashboard.render.com/static/srv-d85nmt7dl75s7392p0n0/deploys/dep-d85nntvavr4c73d43ov0?r=2026-05-18%4020%3A51%3A07%7E2026-05-18%4020%3A53%3A23
+link do render para deploy
+
+
+cd C:\Users\laura\OneDrive\Documentos\Aulas
+git add .
+git commit -m "ng"
+git push
