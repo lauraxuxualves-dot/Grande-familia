@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+
+<html lang="pt-BR">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grande familia</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+
+<body>
+<!--
+Escrever pelo menos 4 carateristicas em cada pessoa
+Incorporar uma imagem para cada pessoa  
+
+style="width: 100px;"-->
+<div style="display: none;" id="login" >
+    <h2>Entrar</h2>
+    <input id="email" placeholder="Seu email" type="email"><br>
+    <input id="senha" placeholder="Sua senha" type="senha"><br>
+    <button onclick="entrar()" >Entrar</button>
+    <h4 id="advertencia" ></h4>
+</div>
+
+<div id="tudo" style="display: block;" >
+
+
+<h1  >
+    Família Gonçalves de Almeida
+</h1>
+
+<h3 class="familia" >
+    Minha Familia linda
+</h3>
+
+<div class="familiares" >
+
+<a href="./componentes/laura.html">
+    Laura
+</a>
+
+<br>
+
+<a href="./componentes/amanda.html">
+    Amanda
+</a>
+
+<br>
+
+<a href="./componentes/daniel.html">
+    Daniel
+</a>
+
+<br>
+
+<a href="./componentes/kiba.html">
+    Kiba
+</a>
+
+<br>
+
+<a href="./componentes/cida.html">
+    Cida
+</a>
+
+<br>
+
+<a href="./componentes/nestor.html">
+    Nestor
+</a>
+
+
+</div>
+
+<hr>
+
+<h3>
+    Meus Amigos São:
+</h3>
+
+<div class="amigos" >
+<a href="./componentes/fernanda.html">
+    Fernanda
+</a>
+
+<br>
+
+<a href="./componentes/hector.html">
+    Hector
+</a>
+
+<br>
+
+</div>
+
+
+<hr>
+
+<a class="tabelas" href="./componentes/tabelas.html">Tabelas</a>
+<br>
+<a class="formulario" href="./componentes/formulario.html">Formulario</a>
+
+<br>
+
+
+
+
+
+<!--
+
+adicionar + 2 pessoas e fazer o mesmo que o do Daniel!
+
+<br>
+
+Nome do anime: Tatsuki Fujimoto 17-26
+
+<hr>
+
+<br>
+
+<img style="width: 100px;" src="./furao.jpg" alt="Este é um furão">
+
+<br>
+
+<br>
+
+<img style="width: 100px;" src="./dragon.jpg" alt="é um dragão">
+
+<br>
+
+<br>
+
+-->
+
+</div>
+
+<script>
+let email = document.querySelector("#email");
+let senha = document.querySelector("#senha");
+let advertencia = document.querySelector("#advertencia");
+// PODE MUDAR AQUI
+let meuemail = "laura.xuxu.alves@gmail.com";
+let minhasenha = "Mi18042012ko"
+
+function entrar(){
+    if (email.value == meuemail && senha.value === minhasenha ) {
+        document.querySelector("#tudo").style.display = "block";
+        document.querySelector("#login").style.display = "none";
+    }
+    else{
+advertencia.innerHTML = "Senha ou Email errado"
+    }
+}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(6, 57, 52, 0.644);
+}
+h2{
+    color: rgba(35, 65, 5, 0.642);
+}
+p{
+    color: rgba(35, 65, 5, 0.642);
+}
+li{
+    color: rgba(127, 11, 11, 0.669);
+}
+h3{
+    color: rgba(0, 0, 0, 0.669);
+}
+img{
+    border-radius: 50%;
+}
+a{
+    color: black;
+}

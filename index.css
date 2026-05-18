@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(6, 111, 111, 0.492);
+}
+h1{
+background-color: rgb(5, 7, 119);
+color: rgb(203, 213, 9);
+border-radius: 100px;
+text-align: center;
+padding: 20px;
+border: rgb(191, 179, 246) 5px solid;
+margin: 20px;
+}
+
+h3{
+color: rgb(52, 6, 6);
+background-color: brown;
+border-radius: 50px;
+border: rgb(0, 0, 0) 2px solid;
+padding: 8px;
+text-align: center; 
+margin: auto;
+width: fit-content;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+a{
+    color: black;
+}
+.familiares a {
+    color: brown;
+}
+.amigos a {
+    color: darkgreen;
+}
+.tabelas{
+    color: blue;
+
+}
+.formulario{
+    color: blueviolet;
+}
+
+.formulario, .tabelas {
+    font-size: 30px;
+    font-weight: bolder;
+}

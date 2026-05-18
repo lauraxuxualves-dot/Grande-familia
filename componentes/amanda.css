@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(29, 29, 224, 0.614);
+}
+h2{
+    color: aquamarine;
+}
+p{
+    color: rgb(227, 229, 80);
+}
+li{
+    color: indigo;
+}
+img{
+    border-radius: 50%;
+}
+h3{
+    color: rgb(55, 28, 28);
+}
+a{
+    color: black;
+}

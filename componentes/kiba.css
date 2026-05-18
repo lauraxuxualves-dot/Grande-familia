@@ -1,0 +1,18 @@
+body{
+    background-color: darkgray;
+}
+h2{
+    color: rgb(66, 0, 128);
+}
+p{
+    color: rgb(26, 26, 94);
+}
+li{
+    color: rgb(66, 9, 119);
+}
+h3{
+    color: rgb(6, 126, 126);
+}
+img{
+    border-radius: 50%;
+}
