@@ -18,8 +18,10 @@ Escrever pelo menos 4 carateristicas em cada pessoa
 Incorporar uma imagem para cada pessoa  
 
 style="width: 100px;"-->
+
 <div style="display: block;" id="login" >
-    <h2>Entrar</h2>
+    <img src="./familia.jpg" alt="logo da familia">
+    <h2>Entrar na <span>Conta</span> </h2>
     <input id="email" placeholder="Seu email" type="email"><br>
     <input id="senha" placeholder="Sua senha" type="senha"><br>
     <button onclick="entrar()" >Entrar</button>
@@ -102,7 +104,8 @@ style="width: 100px;"-->
 
 <a class="tabelas" href="./componentes/tabelas.html">Tabelas</a>
 <br>
-<a class="formulario" href="./componentes/formulario.html">Formulario</a>
+<a class="formulario" href="./componentes/formulario.html">Formulario</a><br><br>
+<a class="Exercicios"  class="formulario" href="./exercicio1.html">Exercios para antes de 25 de maio</a>
 
 <br>
 
@@ -152,7 +155,7 @@ function entrar(){
         document.querySelector("#login").style.display = "none";
     }
     else{
-advertencia.innerHTML = "Senha ou Email errado"
+advertencia.innerHTML = "Senha ou Email errado!!"
     }
 }
 </script>
