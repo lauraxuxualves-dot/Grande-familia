@@ -1,0 +1,16 @@
+button{
+    color: blueviolet;
+    background-color: rgb(255, 251, 0);
+    font-size: 33px;
+    display: flex;
+    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: solid 2px blue;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: blueviolet;
+    color: rgb(246, 255, 0);
+}
