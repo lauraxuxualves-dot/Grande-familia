@@ -5,5 +5,5 @@ link do render para deploy
 
 cd C:\Users\laura\OneDrive\Documentos\Aulas
 git add .
-git commit -m "njv"
+git commit -m "njvuz"
 git push
