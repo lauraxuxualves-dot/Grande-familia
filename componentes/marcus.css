@@ -1,0 +1,21 @@
+img{
+    border-radius: 50%;
+}
+body{
+    background-color: rgb(3, 42, 20);
+}
+h2{
+    color: rgb(22, 180, 19);
+}
+p{
+    color: rgb(113, 187, 97);
+}
+li{
+    color: rgb(118, 202, 40);
+}
+h3{
+    color: rgb(33, 179, 138);
+}
+a{
+    color: black;
+}
